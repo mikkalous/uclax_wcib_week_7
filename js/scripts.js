@@ -15,7 +15,7 @@ jQuery(function() {
 						.removeClass("sprout")
 						 .addClass("bloom");
 
-		$('#my_flower').attr('src', 'images/before.png');
+		$('#my_flower').attr('src', 'images/after.png');
 
 	} else {
 		my_switch = false;
@@ -28,7 +28,7 @@ jQuery(function() {
 						.removeClass("bloom")
 		 				 	.addClass("sprout");
 
-		$('#my_flower').attr('src', 'images/after.png');
+		$('#my_flower').attr('src', 'images/before.png');
 
 	}
 
