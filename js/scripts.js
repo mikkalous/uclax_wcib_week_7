@@ -7,8 +7,6 @@ jQuery(function() {
 		if ( my_switch == false ) {
 			my_switch = true;
 
-		$('#my_flower').attr('src', 'images/after.png');
-		
 		$(this).html('Yes it will!')
 						.removeClass('btn-secondary')
 						  .addClass('btn-success');
@@ -16,11 +14,9 @@ jQuery(function() {
 		$("#my_name, #my_text")
 						.removeClass("sprout")
 						 .addClass("bloom");
-
+	  $('#my_flower').attr('src', 'images/after.png');
 	} else {
 		my_switch = false;
-
-    $('#my_flower').attr('src', 'images/before.png');
 
 		$(this).html('Will it bloom?')
 						.removeClass('btn-success')
@@ -29,6 +25,8 @@ jQuery(function() {
 		$("#my_name, #my_text")
 						.removeClass("bloom")
 		 				 	.addClass("sprout");
+							
+		$('#my_flower').attr('src', 'images/before.png');
 	}
 
 	});
