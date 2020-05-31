@@ -7,7 +7,7 @@ jQuery(function() {
 		if ( my_switch == false ) {
 			my_switch = true;
 
-		$(this).html('Will it bloom?')
+		$(this).html('Yes it will!')
 						.removeClass('btn-secondary')
 						  .addClass('btn-success');
 
@@ -20,7 +20,7 @@ jQuery(function() {
 	} else {
 		my_switch = false;
 
-		$(this).html('Yes it will!')
+		$(this).html('Will it bloom?')
 						.removeClass('btn-success')
 							.addClass('btn-secondary');
 
